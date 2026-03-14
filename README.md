@@ -5,6 +5,102 @@
 [![Code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
 [![Typed with mypy](https://img.shields.io/badge/typed-mypy-blue.svg)](https://github.com/python/mypy)
 
+
+# Autonomous Multi-Agent Automation System using ASI-1, uAgents, LangChain & Composio
+
+## Overview
+
+**AI Task Orchestrator** is a production-ready intelligent automation system that enables users to execute real-world tasks using natural language.
+
+Instead of manually interacting with multiple platforms such as **LinkedIn, Gmail, Slack, or Google Calendar**, users simply chat with an AI assistant powered by **ASI-1 LLM**. The system interprets the user's intent, selects the appropriate tool, authenticates the request, and executes the action automatically.
+
+The system leverages **Fetch.ai's uAgents framework**, **LangChain-based AI agents**, and **Composio integrations** to create a scalable, asynchronous multi-agent orchestration architecture.
+
+This project demonstrates modern **LLM engineering techniques**, including:
+
+- Prompt engineering  
+- Tool calling / function execution  
+- Multi-agent orchestration  
+- Context-aware task execution  
+- Real-world automation using APIs  
+
+---
+
+# Key Features
+
+## Natural Language Task Execution
+
+Users can execute tasks simply by chatting with the AI.
+
+### Example
+
+## Post this on LinkedIn:
+
+"Excited to launch our AI automation platform today!"
+
+The system will:
+
+1. Understand the intent  
+2. Select the correct tool  
+3. Authenticate the user  
+4. Execute the action  
+5. Return the result  
+
+---
+
+## Multi-Agent Architecture
+
+The system is designed using **specialized AI agents**, where each agent performs a specific role in the workflow.
+
+Agents collaborate to complete tasks efficiently.
+
+### Example Agents
+
+| Agent | Responsibility |
+|------|---------------|
+| Intent Agent | Understands user request |
+| Planner Agent | Breaks complex tasks into steps |
+| Tool Agent | Selects the correct external tool |
+| Execution Agent | Executes the task via API |
+| Notification Agent | Returns result to user |
+
+---
+
+## Tool Integrations via Composio
+
+Using **Composio**, the system integrates with multiple real-world services including:
+
+- LinkedIn  
+- Gmail  
+- Slack  
+- Discord  
+- Notion  
+- Google Calendar  
+- GitHub  
+
+This enables the AI to act as a **universal automation interface**.
+
+---
+
+## Async-First Architecture
+
+The system is designed using **asynchronous processing** to allow multiple agents and tasks to run concurrently.
+
+### Benefits
+
+- Higher performance  
+- Faster task execution  
+- Scalable architecture  
+- Real-time agent collaboration  
+
+---
+
+# Example Use Cases
+
+## 1. Social Media Automation
+
+### User Prompt
+
 A production-ready **Composio integration module** for **uAgents framework** with **LangChain-based AI agents**. This module provides a comprehensive, async-first integration layer for building intelligent multi-agent systems that can authenticate users, manage tool access, and execute actions through the Composio platform with an advanced orchestrator architecture.
 
 > For a detailed architectural deep dive (components, flows, diagrams, and future roadmap) see the [Architecture Overview](ARCHITECTURE.md).
