@@ -100,6 +100,44 @@ The system is designed using **asynchronous processing** to allow multiple agent
 ## 1. Social Media Automation
 
 ### User Prompt
+Write a LinkedIn post announcing our new AI product and publish it.
+
+### AI Workflow
+
+1. LLM generates LinkedIn post  
+2. Tool selector identifies LinkedIn API  
+3. Composio authenticates the user  
+4. Post is published automatically  
+
+---
+
+## 2. Team Communication
+
+### User Prompt
+Send a Slack message to the engineering team that deployment is complete.
+
+### System Workflow
+
+1. Intent detection  
+2. Tool selection (Slack)  
+3. Message formatting  
+4. API execution  
+5. Confirmation returned  
+
+---
+
+## 3. Meeting Scheduling
+
+### User Prompt
+
+### System Execution
+
+1. Extract date and time  
+2. Retrieve calendar availability  
+3. Create meeting event  
+4. Send invitation links  
+
+---
 
 A production-ready **Composio integration module** for **uAgents framework** with **LangChain-based AI agents**. This module provides a comprehensive, async-first integration layer for building intelligent multi-agent systems that can authenticate users, manage tool access, and execute actions through the Composio platform with an advanced orchestrator architecture.
 
