@@ -564,7 +564,7 @@ pytest --cov=uagents_composio_adapter --cov-report=html
 
 ```bash
 # Clone the repository
-git clone https://github.com/tejus3131/uagents-composio-adapter.git
+git clone https://github.com/nirdeshsharma2712/Composio_adapter.git
 cd uagents-composio-adapter
 
 # Install in development mode
@@ -692,10 +692,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE)  fil
 
 ## 📞 Support
 
-- **Documentation**: [GitHub README](https://github.com/tejus3131/uagents-composio-adapter#readme)
-- **Issues**: [GitHub Issues](https://github.com/tejus3131/uagents-composio-adapter/issues)
-- **Discussions**: [GitHub Discussions](https://github.com/tejus3131/uagents-composio-adapter/discussions)
+- **Documentation**: [GitHub README](https://github.com/nirdeshsharma2712/Composio_adapter/blob/main/README.md)
+
 
 ---
 
-**Made with ❤️ by [Tejus Gupta](https://github.com/tejus3131)**
+**Made with ❤️ by [Nirdesh Sharma](https://github.com/nirdeshsharma2712/)**
