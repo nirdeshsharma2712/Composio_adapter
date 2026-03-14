@@ -16,7 +16,7 @@ Thank you for your interest in contributing to the uAgents Composio Adapter! Thi
 
 1. **Fork and clone the repository**
    ```bash
-   git clone https://github.com/tejus3131/uagents-composio-adapter.git
+   git clone https://github.com/nirdeshsharma2712/Composio_adapter.git
    cd uagents-composio-adapter
    ```
 
